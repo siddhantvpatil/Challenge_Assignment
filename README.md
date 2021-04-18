@@ -1,14 +1,17 @@
 # VMG_Challenge_Assignment
 The repository contains PyTorch implementation of "BioFaceNet: Deep Biophysical Face Image Interpretation". The current status of this repo is work in progress.
 
-Link to Article: https://arxiv.org/abs/1908.10578
+*Link to Article:* https://arxiv.org/abs/1908.10578
 
-Requirements:
+*Requirements:*
 Python3,
 PyTorch,
 NumPy,
 Pandas,
 Matplotlib
+
+*Pre-defined values:*
+The matrices required for computation are uploaded in the utils folder. Update the "folder_path" in the cell "Python Code for setup.m" to point to the matrices in util folder.
 
 Dataset:
 CelebA dataset is used for training, validating and testing the pipeline. The dataset can be downloaded from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html 
