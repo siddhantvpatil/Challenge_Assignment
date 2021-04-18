@@ -4,13 +4,15 @@ The repository contains PyTorch implementation of "BioFaceNet: Deep Biophysical 
 Link to Article: https://arxiv.org/abs/1908.10578
 
 Requirements:
-Python3
-Pytorch
-Numpy
-Pandas
+Python3,
+PyTorch,
+NumPy,
+Pandas,
 Matplotlib
 
 Dataset:
 CelebA dataset is used for training, validating and testing the pipeline. The dataset can be downloaded from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html 
 
 The code is in the form of a Jupyter notebook. Please run all the cells sequentially. Assign the path to the input image folder to the variable "data_root". 
+
+Note: The entire pipeline is not functional. Loss computation and backward propagation needs an update.
